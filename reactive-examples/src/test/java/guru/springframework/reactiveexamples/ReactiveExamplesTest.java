@@ -14,10 +14,10 @@ import java.util.concurrent.CountDownLatch;
 @Slf4j
 public class ReactiveExamplesTest {
 
-    Person michael = new Person("Michael", "Weston");
-    Person fiona = new Person("Fiona", "Glenanne");
-    Person sam = new Person("Sam", "Axe");
-    Person jesse = new Person("Jesse", "Porter");
+    Person michael = new Person("Walter", "White");
+    Person fiona = new Person("Jesse", "Pinkman");
+    Person sam = new Person("Gustavo", "Fring");
+    Person jesse = new Person("Saul", "Goodman");
 
     @Test
     public void monoTests() throws Exception {
